@@ -146,12 +146,8 @@ img {
 }
 /******************* ПРИЕМУЩЕСТВА ***************/
 .advanteges {
-  width: 1200px;
-  margin: 0 auto;
   padding-top: 94px;
-
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-bottom: 0;
 }
 .advanteges-list .title {
   color: var(--title-text-color);
@@ -272,7 +268,7 @@ img {
 .filter-button-page {
   display: flex;
   margin: 0 auto;
-  margin-bottom: 56px;
+  margin-bottom: 50px;
   justify-content: center;
   text-align: center;
 }
@@ -289,8 +285,9 @@ img {
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
+
 .portfolio-button-list:not(:first-child) {
-  margin-left: 20px;
+  margin-left: 8px;
 }
 
 .button-portfolio:hover,
